@@ -10,5 +10,25 @@ def count_vowels(word):
     return count
 
 # Question 2
-#
+# Iterate through the following list of animals and print each one in all caps.
 
+animals = ['tiger', 'elephant', 'monkey', 'zebra', 'panther']
+
+for animal in animals:
+    print(animal.upper())
+
+# Question 3
+# Write a program that iterates from 1 to 20, printing each number and whether it's odd or even.
+
+for number in range(1, 21):
+    if number % 2 == 0:
+        print(f"{number} is even.")
+    else:
+        print(f"{number} is odd.")
+
+
+# Question 4
+# Write a function sum_of_integers(a, b) that takes two integers as input from the user and returns their sum.
+
+def sum_of_integers(a, b):
+    return a + b
